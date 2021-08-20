@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name ="liveproject suite">
+<test name = "verifyPendingLeaveRquests">
+<classes>
+<class name ="testcases.test_pending_leave_request">
+</class>
+</classes>
+</test >
+
+
+<test name="checkuserrole" >
+<classes>
+<class name ="testcases.test_userrole">
+</class>
+</classes>
+</test> 
+</suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [liveproject]">
+  <test thread-count="5" name="pending leave requests testcase(failed)">
+    <classes>
+      <class name="testcases.test_pending_leave_request">
+        <methods>
+          <include name="launch_browser"/>
+          <include name="verifyPendingLeaveRquests"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testcases.test_pending_leave_request -->
+    </classes>
+  </test> <!-- pending leave requests testcase(failed) -->
+</suite> <!-- Failed suite [liveproject] -->
